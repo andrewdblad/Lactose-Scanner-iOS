@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "440D1D91-9100-45AB-B861-F3D7480E63A9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0E9FB03-1E8A-459A-A675-8E90F1B738DF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Gluten Free Scanner/FoodViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "fetchData()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "C0E9FB03-1E8A-459A-A675-8E90F1B738DF - f4168a74b86a0b4d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Gluten_Free_Scanner.FoodViewModel.fetchData() async -&gt; ()"
+                  moduleName = "Gluten Free Scanner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewblad/Desktop/Personal%20Projects/Apps/Gluten%20Free%20Scanner/Gluten%20Free%20Scanner/FoodViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "C0E9FB03-1E8A-459A-A675-8E90F1B738DF - 82388a36b82cd32a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Gluten_Free_Scanner.FoodViewModel.fetchData() async -&gt; ()"
+                  moduleName = "Gluten Free Scanner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewblad/Desktop/Personal%20Projects/Apps/Gluten%20Free%20Scanner/Gluten%20Free%20Scanner/FoodViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C2F1D9C-CB8E-4CE8-8AFC-AB4283CFC318"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Gluten Free Scanner/FoodInfoView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "fetchData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8C2F1D9C-CB8E-4CE8-8AFC-AB4283CFC318 - d02d490cf7897ebf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Gluten_Free_Scanner.FoodInfoView.fetchData() async -&gt; ()"
+                  moduleName = "Gluten Free Scanner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewblad/Desktop/Personal%20Projects/Apps/Gluten%20Free%20Scanner/Gluten%20Free%20Scanner/FoodInfoView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "644">
+               </Location>
+               <Location
+                  uuid = "8C2F1D9C-CB8E-4CE8-8AFC-AB4283CFC318 - d02d490cf7897ebf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Gluten_Free_Scanner.FoodInfoView.fetchData() async -&gt; ()"
+                  moduleName = "Gluten Free Scanner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewblad/Desktop/Personal%20Projects/Apps/Gluten%20Free%20Scanner/Gluten%20Free%20Scanner/FoodInfoView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "940">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2804423-D704-4244-868F-3723AB28004C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Gluten Free Scanner/FoodInfoView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "fetchData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F2804423-D704-4244-868F-3723AB28004C - 809f417523c4e0c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Gluten_Free_Scanner.FoodInfoView.fetchData() async -&gt; ()"
+                  moduleName = "Gluten Free Scanner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewblad/Desktop/Personal%20Projects/Apps/Gluten%20Free%20Scanner/Gluten%20Free%20Scanner/FoodInfoView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "408">
+               </Location>
+               <Location
+                  uuid = "F2804423-D704-4244-868F-3723AB28004C - 809f417523c4efef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Gluten_Free_Scanner.FoodInfoView.fetchData() async -&gt; ()"
+                  moduleName = "Gluten Free Scanner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewblad/Desktop/Personal%20Projects/Apps/Gluten%20Free%20Scanner/Gluten%20Free%20Scanner/FoodInfoView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "F2804423-D704-4244-868F-3723AB28004C - 809f417523c4efef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Gluten_Free_Scanner.FoodInfoView.fetchData() async -&gt; ()"
+                  moduleName = "Gluten Free Scanner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewblad/Desktop/Personal%20Projects/Apps/Gluten%20Free%20Scanner/Gluten%20Free%20Scanner/FoodInfoView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "636">
+               </Location>
+               <Location
+                  uuid = "F2804423-D704-4244-868F-3723AB28004C - 809f417523c4ef6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Gluten_Free_Scanner.FoodInfoView.fetchData() async -&gt; ()"
+                  moduleName = "Gluten Free Scanner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewblad/Desktop/Personal%20Projects/Apps/Gluten%20Free%20Scanner/Gluten%20Free%20Scanner/FoodInfoView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "F2804423-D704-4244-868F-3723AB28004C - 809f417523c4ef6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Gluten_Free_Scanner.FoodInfoView.fetchData() async -&gt; ()"
+                  moduleName = "Gluten Free Scanner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewblad/Desktop/Personal%20Projects/Apps/Gluten%20Free%20Scanner/Gluten%20Free%20Scanner/FoodInfoView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "636">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0EF5816-E39C-496D-92F4-893BE67136DE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Gluten Free Scanner/FoodInfoView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "B0EF5816-E39C-496D-92F4-893BE67136DE - 1bdc866e84a8cc9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; Swift.Optional&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI.Text, SwiftUI.Text, SwiftUI.Text, SwiftUI.Text, SwiftUI.Text, SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.task&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Equatable&gt;(id: &#x3c4;_1_0, priority: Swift.TaskPriority, _: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0)&gt;&gt; in Gluten_Free_Scanner.FoodInfoView.body.getter : some"
+                  moduleName = "Gluten Free Scanner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewblad/Desktop/Personal%20Projects/Apps/Gluten%20Free%20Scanner/Gluten%20Free%20Scanner/FoodInfoView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "1860">
+               </Location>
+               <Location
+                  uuid = "B0EF5816-E39C-496D-92F4-893BE67136DE - 1bdc866e84a8cc9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; Swift.Optional&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI.Text, SwiftUI.Text, SwiftUI.Text, SwiftUI.Text, SwiftUI.Text, SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.task&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Equatable&gt;(id: &#x3c4;_1_0, priority: Swift.TaskPriority, _: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0)&gt;&gt; in Gluten_Free_Scanner.FoodInfoView.body.getter : some"
+                  moduleName = "Gluten Free Scanner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewblad/Desktop/Personal%20Projects/Apps/Gluten%20Free%20Scanner/Gluten%20Free%20Scanner/FoodInfoView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "1900">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D35676A8-AA32-43C7-9A80-129B061B8AED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Gluten Free Scanner/FoodInfoView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "D35676A8-AA32-43C7-9A80-129B061B8AED - 1bdc866e84a8cd67"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; Swift.Optional&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI.Text, SwiftUI.Text, SwiftUI.Text, SwiftUI.Text, SwiftUI.Text, SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.task&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Equatable&gt;(id: &#x3c4;_1_0, priority: Swift.TaskPriority, _: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0)&gt;&gt; in Gluten_Free_Scanner.FoodInfoView.body.getter : some"
+                  moduleName = "Gluten Free Scanner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewblad/Desktop/Personal%20Projects/Apps/Gluten%20Free%20Scanner/Gluten%20Free%20Scanner/FoodInfoView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "444">
+               </Location>
+               <Location
+                  uuid = "D35676A8-AA32-43C7-9A80-129B061B8AED - 1bdc866e84a8cd67"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; Swift.Optional&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI.Text, SwiftUI.Text, SwiftUI.Text, SwiftUI.Text, SwiftUI.Text, SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.task&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Equatable&gt;(id: &#x3c4;_1_0, priority: Swift.TaskPriority, _: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0)&gt;&gt; in Gluten_Free_Scanner.FoodInfoView.body.getter : some"
+                  moduleName = "Gluten Free Scanner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewblad/Desktop/Personal%20Projects/Apps/Gluten%20Free%20Scanner/Gluten%20Free%20Scanner/FoodInfoView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "364">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1E0E873-B1A2-4D33-8FAD-5CA454A381DC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Gluten Free Scanner/FoodInfoView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0EF3BADF-AF54-42FE-A69B-B2554541C696"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Gluten Free Scanner/FoodInfoView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
