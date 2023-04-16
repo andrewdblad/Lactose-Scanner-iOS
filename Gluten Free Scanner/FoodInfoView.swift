@@ -29,56 +29,70 @@ struct FoodInfoView: View {
     @State var status_verbose = ""
     @State var product_name = ""
     @State var allergens = ""
+    @State var textBox = "Scan items to check if they contain lactose"
     @State var textBox1 = ""
     @State var textBox2 = ""
     @State var textBox3 = ""
+    @State var isLoading = false
     
     
     
     var body: some View {
         VStack {
+            Text(textBox)
+                .font(.system(size: 15, weight: .bold, design: .default))
             if barCodeNumber != "" {
-                Spacer()
+                
+                
                 Text(product_name)
                     .font(.system(size: 20, weight: .bold, design: .default))
+
                 Text(textBox1)
                     .font(.system(size: 15, weight: .bold, design: .default))
+                    .padding(.trailing, 20)
+                    .padding(.leading, 20)
                 Text(textBox2)
                 Text("")
+                    .task {
+                        textBox = ""
+                    }
                 Text(textBox3)
                     .font(.system(size: 15, weight: .bold, design: .default))
+                
+                if isLoading {
+                    ProgressView()
+                        .progressViewStyle(CircularProgressViewStyle(tint: .black))
+                        .scaleEffect(2)
+      
+                }
                 Spacer()
-                Spacer()
+                
                     .task(id: barCodeNumber) {
                         await fetchData()
+                              
                         if status_verbose == "product found" {
-                            
+                            isLoading = false
                             textBox3 = "Please double check labels. Some food data is incomplete and may return incorrect results."
                             
-                            if  (allergens.contains("grain") || allergens.contains("wheat") || allergens.contains("glutens") || allergens.contains("grains") || allergens.contains("gluten")) && (allergens.contains("milk") || allergens.contains("lactose") || allergens.contains("dairy")) {
-                            textBox1 = "WARNING!"
-                            textBox2 = "Contains gluten and lactose"
-                            mainImage = "containsGL"
-                                
-                            }
-                            else if (allergens.contains("wheat") || allergens.contains("gluten") || allergens.contains("glutens") || allergens.contains("grains")) {
-                                textBox1 = "WARNING!"
-                                textBox2 = "Contains Gluten"
-                                mainImage = "containsG"
-                            }
-                            else if (allergens.contains("milk") || allergens.contains("lactose") || allergens.contains("dairy")) {
+
+                            if (allergens.contains("milk") || allergens.contains("lactose") || allergens.contains("dairy") || allergens.contains("whey") || allergens.contains("dairy products")) {
+                                isLoading = false
                                 textBox1 = "WARNING!"
                                 textBox2 = "Contains Lactose"
                                 mainImage = "containsL"
+
                             }
                             
                             else {
-                                textBox2 = "Does not contain gluten or lactose"
+                                isLoading = false
+                                textBox2 = "Does not contain lactose"
                                 textBox1 = ""
                                 mainImage = "containsN"
+
                                 
                             }
                         } else {
+                            isLoading = false
                             textBox1 = "Could not find food in database. Please rescan or try again later."
                         }
                     }
@@ -90,6 +104,7 @@ struct FoodInfoView: View {
         }.foregroundColor(.black)
     }
     
+    
     func fetchData() async {
         guard let url = URL(string: "https://world.openfoodfacts.org/api/v0/product/\(barCodeNumber).json") else {
             print("URL Not Found")
@@ -99,9 +114,11 @@ struct FoodInfoView: View {
         do {
             print("Function Ran")
             print(url)
+            isLoading = true
             let (data, _) = try await URLSession.shared.data(from: url)
             // decode data
             if let response = try? JSONDecoder().decode(FoodResponse.self, from: data) {
+                isLoading = false
                 //code = decodedResponse.code
                 //status = decodedResponse.status
                 status_verbose = response.status_verbose

@@ -24,10 +24,10 @@ struct ContentView: View {
                 .ignoresSafeArea()
                 
             VStack {
-                Text("Gluten & Lactose Check")
+                Text("Lactose Scanner")
                     .foregroundColor(.black)
-                    .font(.system(size: 25)) 
-                    .padding(.top, 0)
+                    .font(.system(size: 25, weight: .bold)) 
+                    .padding(.top, 20)
                 
                 VStack{
                     MainImageView(image: mainImage)
