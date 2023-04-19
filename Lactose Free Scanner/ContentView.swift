@@ -14,7 +14,7 @@ struct ContentView: View {
     @State var isShowingScanner = false
     @State var barCodeNumber = ""
     @State var backgroundColor = Color("cream")
-    @State var mainImage = "glutenLactose"
+    @State var mainImage = "containsN"
 
     var body: some View {
 

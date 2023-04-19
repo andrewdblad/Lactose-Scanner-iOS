@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		314979E629E5D37F00B6F4F5 /* MainImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314979E529E5D37F00B6F4F5 /* MainImageView.swift */; };
-		31C3F2F629E1C66A002B67DE /* Gluten_Free_ScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C3F2F529E1C66A002B67DE /* Gluten_Free_ScannerApp.swift */; };
+		31C3F2F629E1C66A002B67DE /* Lactose_Free_ScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C3F2F529E1C66A002B67DE /* Lactose_Free_ScannerApp.swift */; };
 		31C3F2F829E1C66A002B67DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C3F2F729E1C66A002B67DE /* ContentView.swift */; };
 		31C3F2FA29E1C66B002B67DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31C3F2F929E1C66B002B67DE /* Assets.xcassets */; };
 		31C3F2FD29E1C66B002B67DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31C3F2FC29E1C66B002B67DE /* Preview Assets.xcassets */; };
@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		314979E529E5D37F00B6F4F5 /* MainImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainImageView.swift; sourceTree = "<group>"; };
 		31C3F2F229E1C66A002B67DE /* Gluten Free Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gluten Free Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		31C3F2F529E1C66A002B67DE /* Gluten_Free_ScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gluten_Free_ScannerApp.swift; sourceTree = "<group>"; };
+		31C3F2F529E1C66A002B67DE /* Lactose_Free_ScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lactose_Free_ScannerApp.swift; sourceTree = "<group>"; };
 		31C3F2F729E1C66A002B67DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		31C3F2F929E1C66B002B67DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31C3F2FC29E1C66B002B67DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		31C3F2E929E1C66A002B67DE = {
 			isa = PBXGroup;
 			children = (
-				31C3F2F429E1C66A002B67DE /* Gluten Free Scanner */,
+				31C3F2F429E1C66A002B67DE /* Lactose Free Scanner */,
 				31C3F2F329E1C66A002B67DE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,10 +56,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		31C3F2F429E1C66A002B67DE /* Gluten Free Scanner */ = {
+		31C3F2F429E1C66A002B67DE /* Lactose Free Scanner */ = {
 			isa = PBXGroup;
 			children = (
-				31C3F2F529E1C66A002B67DE /* Gluten_Free_ScannerApp.swift */,
+				31C3F2F529E1C66A002B67DE /* Lactose_Free_ScannerApp.swift */,
 				31C3F2F729E1C66A002B67DE /* ContentView.swift */,
 				314979E529E5D37F00B6F4F5 /* MainImageView.swift */,
 				31DF17E829E7C88300B1BD7C /* FoodInfoView.swift */,
@@ -67,7 +67,7 @@
 				31C3F2F929E1C66B002B67DE /* Assets.xcassets */,
 				31C3F2FB29E1C66B002B67DE /* Preview Content */,
 			);
-			path = "Gluten Free Scanner";
+			path = "Lactose Free Scanner";
 			sourceTree = "<group>";
 		};
 		31C3F2FB29E1C66B002B67DE /* Preview Content */ = {
@@ -158,7 +158,7 @@
 				31C3F2F829E1C66A002B67DE /* ContentView.swift in Sources */,
 				31D2847429E5E13000611618 /* BarCodeScannerView.swift in Sources */,
 				31DF17E929E7C88300B1BD7C /* FoodInfoView.swift in Sources */,
-				31C3F2F629E1C66A002B67DE /* Gluten_Free_ScannerApp.swift in Sources */,
+				31C3F2F629E1C66A002B67DE /* Lactose_Free_ScannerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +286,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Gluten Free Scanner/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Lactose Free Scanner/Preview Content\"";
 				DEVELOPMENT_TEAM = Z87M9B9M97;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -301,7 +301,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.andrewblad.Gluten-Free-Scanner";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewblad.lactoseScanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -316,7 +316,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Gluten Free Scanner/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Lactose Free Scanner/Preview Content\"";
 				DEVELOPMENT_TEAM = Z87M9B9M97;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -331,7 +331,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.andrewblad.Gluten-Free-Scanner";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewblad.lactoseScanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
