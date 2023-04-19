@@ -31,10 +31,12 @@ struct ContentView: View {
                 
                 VStack{
                     MainImageView(image: mainImage)
+                    //View Contains API Call and appropriate text boxes
                     FoodInfoView(isGlutenFree: $isGlutenFree, isLactoseFree: $isLactoseFree, barCodeNumber: $barCodeNumber, mainImage: $mainImage)
                 }
 
                 Spacer()
+                //barcode button and scanner proccessing
                 BarCodeScannerView(isShowingScanner: $isShowingScanner, barCodeNumber: $barCodeNumber)
                     .background(
                         Image("topBottomYellow").resizable().padding(.top, 25.0).frame(width: 600.0, height: 200.0))
@@ -48,5 +50,6 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
 
 
