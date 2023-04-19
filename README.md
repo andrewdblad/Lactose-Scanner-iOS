@@ -22,15 +22,15 @@ This application is designed for users that have an allergy towards products con
 # Screenshots
 ### Home screen on app launch
 
-![App Screenshot](https://i.imgur.com/qn49PNS.png?2)
+![App Screenshot](https://i.imgur.com/qn49PNS.png?5)
 
 ### Screen if food contents contains lactose
 
-![App Screenshot](https://i.imgur.com/0UGkMii.png?6)
+![App Screenshot](https://i.imgur.com/0UGkMii.png?11)
 
 ### Screen if food does not contain lactose
 
-![App Screenshot](https://i.imgur.com/yRfvOS8.png?7)
+![App Screenshot](https://i.imgur.com/yRfvOS8.png?10)
 
 
 
