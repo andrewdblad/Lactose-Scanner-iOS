@@ -116,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 31C3F2ED29E1C66A002B67DE /* Build configuration list for PBXProject "Gluten Free Scanner" */;
+			buildConfigurationList = 31C3F2ED29E1C66A002B67DE /* Build configuration list for PBXProject "Lactose Free Scanner" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -342,7 +342,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		31C3F2ED29E1C66A002B67DE /* Build configuration list for PBXProject "Gluten Free Scanner" */ = {
+		31C3F2ED29E1C66A002B67DE /* Build configuration list for PBXProject "Lactose Free Scanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31C3F2FE29E1C66B002B67DE /* Debug */,
