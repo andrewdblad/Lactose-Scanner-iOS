@@ -20,8 +20,6 @@ import SwiftUI
     }
 
 struct FoodInfoView: View {
-    @Binding var isGlutenFree: Bool
-    @Binding var isLactoseFree: Bool
     @Binding var barCodeNumber: String
     @Binding var mainImage: String
     @State var code = ""
@@ -72,7 +70,7 @@ struct FoodInfoView: View {
                               
                         if status_verbose == "product found" {
                             isLoading = false
-                            textBox3 = "Please double check labels. Some food data is incomplete and may return incorrect results."
+                            textBox3 = "*Please double check labels*"
                             
 
                             if (allergens.contains("milk") || allergens.contains("lactose") || allergens.contains("dairy") || allergens.contains("whey") || allergens.contains("dairy products")) {
@@ -82,6 +80,13 @@ struct FoodInfoView: View {
                                 mainImage = "containsL"
 
                             }
+                            else if allergens == "" {
+                                isLoading = false
+                                textBox1 = "No Allergy Data Found!"
+                                textBox2 = "May Contain Lactose"
+                                mainImage = "containsM"
+                            }
+                            
                             
                             else {
                                 isLoading = false
@@ -112,15 +117,12 @@ struct FoodInfoView: View {
         }
         // fetch data from url
         do {
-            print("Function Ran")
             print(url)
             isLoading = true
             let (data, _) = try await URLSession.shared.data(from: url)
             // decode data
             if let response = try? JSONDecoder().decode(FoodResponse.self, from: data) {
                 isLoading = false
-                //code = decodedResponse.code
-                //status = decodedResponse.status
                 status_verbose = response.status_verbose
                 product_name = response.product.product_name
                 allergens = response.product.allergens_from_ingredients

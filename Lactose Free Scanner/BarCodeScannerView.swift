@@ -18,20 +18,21 @@ struct BarCodeScannerView: View {
             
             Button {
                 isShowingScanner = true
-                print("hi")
-            
-            } label: {
-                Text("Tap To Scan")
-                    .font(.system(size: 20, weight: .bold, design: .default))
-                    .foregroundColor(.black)
-                Image("cameraImage")
-                    .resizable()
-                    .frame(width: 28, height: 28)
                 
+            } label: {
+                HStack {
+                    Text("Tap To Scan")
+                        .font(.system(size: 20, weight: .bold, design: .default))
+                        .foregroundColor(.black)
+                    Image("cameraImage")
+                        .resizable()
+                        .frame(width: 28, height: 28)
+                }
+                .frame(width: 300, height: 50)
+                .background(Color("main"))
+                .cornerRadius(10)
             }
-            .frame(width: 300, height: 50)
-            .background(Color("main"))
-            .cornerRadius(10)
+
             
         }
         .padding(.bottom, 10)

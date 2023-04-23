@@ -9,12 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var isGlutenFree = false
-    @State var isLactoseFree = false
     @State var isShowingScanner = false
     @State var barCodeNumber = ""
     @State var backgroundColor = Color("cream")
-    @State var mainImage = "containsN"
+    @State var mainImage = "main"
 
     var body: some View {
 
@@ -27,15 +25,29 @@ struct ContentView: View {
                 Text("Lactose Scanner")
                     .foregroundColor(.black)
                     .font(.system(size: 25, weight: .bold)) 
-                    .padding(.top, 20)
-                
-                VStack{
-                    MainImageView(image: mainImage)
-                    //View Contains API Call and appropriate text boxes
-                    FoodInfoView(isGlutenFree: $isGlutenFree, isLactoseFree: $isLactoseFree, barCodeNumber: $barCodeNumber, mainImage: $mainImage)
-                }
+                    .padding(.top, 10)
+                    .padding(.bottom, 25)
 
-                Spacer()
+                
+              
+               
+                VStack{
+                    
+            
+                    MainImageView(image: mainImage)
+                        .padding(.top, -20)
+                    
+                    //View Contains API Call and appropriate text boxes
+                    FoodInfoView(barCodeNumber: $barCodeNumber, mainImage: $mainImage)
+                    Spacer()
+                  
+                    
+                }
+                
+               
+          
+         
+                
                 //barcode button and scanner proccessing
                 BarCodeScannerView(isShowingScanner: $isShowingScanner, barCodeNumber: $barCodeNumber)
                     .background(

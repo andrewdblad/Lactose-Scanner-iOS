@@ -15,8 +15,8 @@ struct MainImageView: View {
     
         Image(image)
             .resizable()
-            .frame(height: 350)
-            .frame(width: 350)
+            .frame(height: 290)
+            .frame(width: 290)
     }
 }
 
