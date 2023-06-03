@@ -15,7 +15,7 @@ struct BarCodeScannerView: View {
     var body: some View {
 
         ZStack {
-            
+            // camera button
             Button {
                 isShowingScanner = true
                 
@@ -37,6 +37,7 @@ struct BarCodeScannerView: View {
         }
         .padding(.bottom, 10)
         
+        // popup camera view when button is pressed
         .sheet(isPresented: $isShowingScanner) {
             ZStack {
                 CodeScannerView(codeTypes: [.codabar, .code128, .code39, .code39Mod43, .code93,.gs1DataBar, .gs1DataBarExpanded, .gs1DataBarLimited, .aztec, .catBody, .dataMatrix,.dogBody, .ean13, .ean8, .face, .humanBody, .interleaved2of5, .itf14, .microPDF417,.upce, .salientObject], completion: handleScan)

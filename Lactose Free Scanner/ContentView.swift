@@ -17,23 +17,19 @@ struct ContentView: View {
     var body: some View {
 
         ZStack {
-
             backgroundColor
                 .ignoresSafeArea()
                 
             VStack {
+                // Text and formatting
                 Text("Lactose Scanner")
                     .foregroundColor(.black)
                     .font(.system(size: 25, weight: .bold)) 
                     .padding(.top, 10)
                     .padding(.bottom, 25)
 
-                
-              
-               
                 VStack{
-                    
-            
+                    // display main image
                     MainImageView(image: mainImage)
                         .padding(.top, -20)
                     
@@ -43,11 +39,7 @@ struct ContentView: View {
                   
                     
                 }
-                
-               
-          
-         
-                
+
                 //barcode button and scanner proccessing
                 BarCodeScannerView(isShowingScanner: $isShowingScanner, barCodeNumber: $barCodeNumber)
                     .background(

@@ -7,9 +7,9 @@
 
 import SwiftUI
 
+
+    // map data from api
     struct FoodResponse: Codable {
-        //var code: String
-        //var status: Int
         var status_verbose: String
         var product: FoodInfo
     }
@@ -66,13 +66,14 @@ struct FoodInfoView: View {
                 Spacer()
                 
                     .task(id: barCodeNumber) {
+                        // wait for data from api
                         await fetchData()
-                              
+                        
                         if status_verbose == "product found" {
                             isLoading = false
                             textBox3 = "*Please double check labels*"
                             
-
+                            // if contains lactose display warning
                             if (allergens.contains("milk") || allergens.contains("lactose") || allergens.contains("dairy") || allergens.contains("whey") || allergens.contains("dairy products")) {
                                 isLoading = false
                                 textBox1 = "WARNING!"
@@ -80,6 +81,7 @@ struct FoodInfoView: View {
                                 mainImage = "containsL"
 
                             }
+                            // if no data is found display warning
                             else if allergens == "" {
                                 isLoading = false
                                 textBox1 = "No Allergy Data Found!"
@@ -87,7 +89,7 @@ struct FoodInfoView: View {
                                 mainImage = "containsM"
                             }
                             
-                            
+                            // display message if both other checks are false
                             else {
                                 isLoading = false
                                 textBox2 = "Does not contain lactose"

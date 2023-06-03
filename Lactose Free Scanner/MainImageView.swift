@@ -12,7 +12,7 @@ struct MainImageView: View {
     var image: String
     
     var body: some View {
-    
+    // display main image
         Image(image)
             .resizable()
             .frame(height: 290)
