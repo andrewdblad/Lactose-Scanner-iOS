@@ -3,6 +3,7 @@
 
 This application is designed for users that have an allergy towards products containing lactose. With a simple and easy to use interface, the user can scan from Open Food Fact's database of millions of food products and receive an allergy report within seconds.
 
+[Software Demo Video](https://youtu.be/mYddzOs-sCs)
 
 ## Features
 
